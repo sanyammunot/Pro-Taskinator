@@ -1,0 +1,59 @@
+body {
+  background-color: rgb(171, 199, 223);
+} 
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(24, 43, 51);
+  margin: 0 0 15px 0;
+}
+
+.input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 10px 12px;
+  height: 33px;
+  width: 480px;
+  margin: 0 0 10px 0;
+}
+
+.todoul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0 0 20px 0;
+  cursor: pointer;
+}
+.color-red {
+  background-color: rgb(223, 107, 107);
+}
+.color-green {
+  background-color: rgb(110, 211, 110);
+}
+
+.li {
+  width: 550px;
+  color: rgb(39, 33, 33);
+  font-size: 22px;
+  padding: 12px;
+  border-bottom: 1px solid #272424;
+  border-radius: 4px;
+}
+
